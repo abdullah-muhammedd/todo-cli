@@ -11,7 +11,7 @@ TodoWave is a command-line tool designed to help you manage your tasks and prior
 
 ## Installation
 1. Ensure you have Node.js installed on your system.
-2. Download the comprissed pacjage using the next command 
+2. Download the comprissed package using the next command 
 ```bash
 curl -LO https://github.com/abdullah-muhammedd/todo-cli/archive/refs/tags/V1.0.0.tar.gz
 ```
