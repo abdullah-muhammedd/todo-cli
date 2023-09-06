@@ -1,0 +1,4 @@
+#!/bin/bash
+
+script_dir="$HOME/todo-cli/todo-cli-1.0.0"
+node $(echo "$script_dir/todo.js") "$@"
