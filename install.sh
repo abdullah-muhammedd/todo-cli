@@ -13,13 +13,13 @@ if [ ! -d "$target_directory" ]; then
 fi
 
 # Check if the tar file exists
-if [ ! -f "todo-cli-1.0.0.tar.gz" ]; then
-    echo "Error: The tar file 'todo-cli-1.0.0.tar.gz' does not exist. Please download it first."
+if [ ! -f "V1.0.0.tar.gz" ]; then
+    echo "Error: The tar file 'V1.0.0.tar.gz' does not exist. Please download it first."
     exit 1
 fi
 
 # Extract the tar file
-tar -xzf todo-cli-1.0.0.tar.gz -C "$target_directory"
+tar -xzf V1.0.0.tar.gz -C "$target_directory"
 
 if [ $? -eq 0 ]; then
     echo "Repository extracted successfully to $target_directory"
